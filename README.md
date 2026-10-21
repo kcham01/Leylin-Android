@@ -1,8 +1,8 @@
 Leyline reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries on your phone. It's made for **TBC Classic Anniversary**.
 
-USAGE
+## USAGE
 
-1. Turn on logging in game
+## 1. Turn on logging in game
 
 Type these in the WoW chat box each time you log in:
 
