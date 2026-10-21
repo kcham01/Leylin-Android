@@ -1,4 +1,5 @@
-# Raidscribe
+# <img width="1280" height="640" alt="raidscribe-social" src="https://github.com/user-attachments/assets/b9da7e88-9d5d-4f86-893a-ad40fc340e2d" />
+
 
 Raidscribe reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries. It runs on your Android phone and on your Windows PC, and it's made for **TBC Classic Anniversary**.
 
@@ -86,3 +87,6 @@ Raidscribe uses this open-source software and data:
 Full licence texts are in the apps: **Settings → About** on the phone, and **Settings → About → View licences** on the PC.
 
 World of Warcraft® and Blizzard Entertainment® are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries. Raidscribe is an independent project and is not affiliated with or endorsed by Blizzard Entertainment.
+
+
+
