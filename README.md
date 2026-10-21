@@ -1,4 +1,4 @@
-Leyline reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries on your phone. It's made for **TBC Classic Anniversary**.
+Raidscribe reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries on your phone. It's made for **TBC Classic Anniversary**.
 
 ## USAGE
 
@@ -27,13 +27,13 @@ You want the `WoWCombatLog-….txt` files and `WoWChatLog.txt`. You do not need 
 
 ## 3. Pick the folder in the app
 
-1. In Leyline, tap the menu button (☰) and open **Settings**.
+1. In Raidscribe, tap the menu button (☰) and open **Settings**.
 2. Under **Logs folder**, tap **Choose folder…**.
 3. Open the folder with your logs and tap **Use this folder**.
 
 ## Credits and licences
 
-Leyline uses this open-source software and data:
+Raidscribe uses this open-source software and data:
 
 | Software / data | Used for | Licence |
 |---|---|---|
@@ -46,4 +46,4 @@ Leyline uses this open-source software and data:
 
 Full licence texts are in the app under **Settings → About**.
 
-World of Warcraft® and Blizzard Entertainment® are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries. Leyline is an independent project and is not affiliated with or endorsed by Blizzard Entertainment.
+World of Warcraft® and Blizzard Entertainment® are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries. Raidscribe is an independent project and is not affiliated with or endorsed by Blizzard Entertainment.
