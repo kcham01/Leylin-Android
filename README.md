@@ -1,4 +1,6 @@
-# Raidscribe
+<p align="center">
+  <img src="docs/raidscribe-banner.png" alt="Raidscribe: combat and chat log reader for World of Warcraft: TBC Anniversary, on Android and Windows" width="100%">
+</p>
 
 Raidscribe reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries. It runs on your Android phone and on your Windows PC, and it's made for **TBC Classic Anniversary**.
 
