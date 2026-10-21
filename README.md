@@ -1,5 +1,4 @@
-# <img width="1280" height="640" alt="raidscribe-social" src="https://github.com/user-attachments/assets/b9da7e88-9d5d-4f86-893a-ad40fc340e2d" />
-
+# Raidscribe
 
 Raidscribe reads your World of Warcraft combat and chat logs and turns them into easy-to-read summaries. It runs on your Android phone and on your Windows PC, and it's made for **TBC Classic Anniversary**.
 
@@ -12,6 +11,8 @@ Raidscribe reads your World of Warcraft combat and chat logs and turns them into
 
 On the PC it updates live while you play.
 
+> **Beta:** this is **Raidscribe 1.0.0-beta**, the first public version. Everything works, but expect rough edges. The version and build number are in **Settings → About**.
+
 ## Install
 
 Download the latest version from [**Releases**](../../releases).
@@ -20,6 +21,7 @@ Download the latest version from [**Releases**](../../releases).
 
 1. Download `Raidscribe-Setup-….exe` and open it.
 2. Windows may say **"Windows protected your PC"**, because Raidscribe isn't code-signed yet. Click **More info**, then **Run anyway**.
+   - If it says **"An Application Control policy has blocked this file"** instead, Windows' Smart App Control is on, and it blocks every app that isn't code-signed. Turn it off in **Windows Security → App & browser control → Smart App Control settings**, then run the installer again. On an up-to-date Windows 11 you can turn it back on afterwards.
 3. Click through the installer. It doesn't need admin rights, and you can uninstall Raidscribe any time from **Settings → Apps**.
 
 Raidscribe finds World of Warcraft by itself. If it can't, it asks you to choose your World of Warcraft folder or pick one of your log files.
@@ -69,7 +71,11 @@ Raidscribe reads every log in that folder. Logs you copy in later are picked up 
 
 On the PC, you can change the folder the same way: **Settings → Logs folder → Choose WoW folder…** or **Pick a log file…**.
 
-## Credits and licences
+## Licence
+
+Raidscribe is free software: you can share it and change it under the [GNU General Public License 3.0](LICENSE). It comes with no warranty.
+
+## Credits
 
 Raidscribe uses this open-source software and data:
 
@@ -87,6 +93,3 @@ Raidscribe uses this open-source software and data:
 Full licence texts are in the apps: **Settings → About** on the phone, and **Settings → About → View licences** on the PC.
 
 World of Warcraft® and Blizzard Entertainment® are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries. Raidscribe is an independent project and is not affiliated with or endorsed by Blizzard Entertainment.
-
-
-

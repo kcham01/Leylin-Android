@@ -30,7 +30,8 @@ jobs:
       - run: bash ci/build.sh
         env:
           VERSION_CODE: ${{ github.run_number }}
-          VERSION_NAME: 1.0.${{ github.run_number }}
+          KEYSTORE_B64: ${{ secrets.RAIDSCRIBE_KEYSTORE }}
+          RAIDSCRIBE_KEYSTORE_PASSWORD: ${{ secrets.RAIDSCRIBE_KEYSTORE_PASSWORD }}
       - run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
@@ -62,8 +63,6 @@ jobs:
           python-version: '3.12'
       - run: bash ci/windows.sh
         shell: bash
-        env:
-          VERSION_NAME: 1.0.${{ github.run_number }}
       - if: always()
         run: bash ci/publish-windows.sh
         shell: bash
