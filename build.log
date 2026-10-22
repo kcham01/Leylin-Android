@@ -1,0 +1,112 @@
+== Raidscribe 1.0.0-beta, build 29
+ok   runs found: Gruul's Lair, Nagrand Arena, Nagrand Arena, Warsong Gulch, The Shattered Halls, The Shattered Halls, Karazhan
+ok   Karazhan: 3 kills, 1 wipe
+ok   Karazhan has deaths and loot
+ok   exact potion names: Frostina Super Mana Potion x4
+ok   Holyra Major Mana Potion x4, Master Healthstone x4
+ok   cooldowns: Frostina Ice Block x4, Rainmaker Bloodlust x4
+ok   interrupts: Thokk 4 with Pummel, stopped Fear
+ok   deaths are in the drop-downs with what killed them
+ok   29 fights open
+ok   history weeks
+ok   history bosses
+ok   history players
+ok   history attendance
+ok   history loot
+ok   week summary
+ok   chat loot
+ok   rolls
+ok   activity
+ok   messages
+ok   watch
+ok   item tooltip
+ok   report saved
+ok   browse
+ok   a log copied in while open is read: Karazhan, Nagrand Arena, The Shattered Halls, Warsong Gulch
+all good
+signing key secret: 1384 characters (expected 1384), password: 32 characters (expected 32)
+signing key OK: 2C:B2:21:C5:72:20:24:A5:CD:07:D0:46:5F:F7:03:B3:23:99:FC:37:2E:CA:28:16:EC:F6:C7:77:34:44:D9:32
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:generateReleasePythonJniLibs
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseNativeLibs
+> Task :app:findReleasePythonCommand
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libchaquopy_java.so, libcrypto_chaquopy.so, libcrypto_python.so, libpython3.12.so, libpython3.so, libsqlite3_chaquopy.so, libsqlite3_python.so, libssl_chaquopy.so, libssl_python.so. Run with --info option to learn more.
+
+> Task :app:extractReleasePythonBuildPackages
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:installReleasePythonRequirements
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleasePythonSources
+> Task :app:generateReleasePythonProxies
+> Task :app:javaPreCompileRelease
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:parseReleaseLocalResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseStartupProfile
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:processReleaseResources
+> Task :app:generateReleasePythonMiscAssets
+> Task :app:desugarReleaseFileDependencies
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /home/runner/work/Raidscribe/Raidscribe/app/src/main/java/app/raidscribe/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:generateReleasePythonRequirementsAssets
+> Task :app:generateReleasePythonSourceAssets
+> Task :app:generateReleasePythonBuildAssets
+> Task :app:mergeReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :app:compressReleaseAssets
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:optimizeReleaseResources
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:mergeDexRelease
+> Task :app:compileReleaseArtProfile
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_2-1792631969737.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Raidscribe/Raidscribe/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 26s
+56 actionable tasks: 56 executed
+total 41248
+drwxr-xr-x  2 runner runner     4096 Oct 22 01:19 .
+drwxr-xr-x 12 runner runner     4096 Oct 22 01:19 ..
+-rw-r--r--  1 runner runner 42226004 Oct 22 01:19 Raidscribe.apk
+V2 Signer: certificate DN: CN=Raidscribe
+V2 Signer: certificate SHA-256 digest: 2cb221c5722024a5cd07d0465ff703b32399fc372eca2816ecf6c7773444d932

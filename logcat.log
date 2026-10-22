@@ -1,0 +1,9 @@
+--------- beginning of main
+10-22 01:21:52.626 W/chromium( 4622): [WARNING:dns_config_service_android.cc(115)] Failed to read DnsConfig.
+10-22 01:22:55.898 I/chromium( 2945): [INFO:policy_logger.cc(142)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(272) Deferring CBCM Controller Initialization until it is unblocked.
+10-22 01:23:06.954 W/chromium( 2945): [WARNING:controller_impl.cc(1188)] Background download complete, client: 6, completion type: 0, file size:5398
+10-22 01:23:06.979 W/chromium( 2945): [WARNING:controller_impl.cc(1188)] Background download complete, client: 6, completion type: 0, file size:5225
+10-22 01:23:07.027 I/chromium( 7224): [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-22 01:23:07.038 W/chromium( 2945): [WARNING:controller_impl.cc(1188)] Background download complete, client: 6, completion type: 0, file size:5112
+10-22 01:23:07.094 I/chromium( 7234): [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-22 01:23:07.111 I/chromium( 7254): [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.

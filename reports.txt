@@ -1,0 +1,18 @@
+/sdcard/Documents/Raidscribe Reports:
+total 8
+drwxrws--- 3 u0_a179 media_rw 4096 2026-10-22 01:22 2026-10-19 1901 Karazhan
+
+/sdcard/Documents/Raidscribe Reports/2026-10-19 1901 Karazhan:
+total 296
+-rw-rw---- 1 u0_a179 media_rw   9598 2026-10-22 01:22 Karazhan.html
+-rw-rw---- 1 u0_a179 media_rw 255459 2026-10-22 01:22 Karazhan.png
+-rw-rw---- 1 u0_a179 media_rw   8456 2026-10-22 01:22 Karazhan.xlsx
+drwxrws--- 2 u0_a179 media_rw   4096 2026-10-22 01:22 csv
+
+/sdcard/Documents/Raidscribe Reports/2026-10-19 1901 Karazhan/csv:
+total 40
+-rw-rw---- 1 u0_a179 media_rw  136 2026-10-22 01:22 Deaths.csv
+-rw-rw---- 1 u0_a179 media_rw  310 2026-10-22 01:22 Fights.csv
+-rw-rw---- 1 u0_a179 media_rw  423 2026-10-22 01:22 Loot.csv
+-rw-rw---- 1 u0_a179 media_rw 2870 2026-10-22 01:22 Per fight.csv
+-rw-rw---- 1 u0_a179 media_rw  542 2026-10-22 01:22 Players.csv

@@ -1,0 +1,422 @@
+[
+ [
+  "Opens on the latest run",
+  true,
+  "Gruul's Lair"
+ ],
+ [
+  "Menu opens",
+  true,
+  ""
+ ],
+ [
+  "Menu: Raids filter",
+  true,
+  ""
+ ],
+ [
+  "Menu: All",
+  true,
+  ""
+ ],
+ [
+  "Menu: open Karazhan",
+  true,
+  ""
+ ],
+ [
+  "Run: Everything scope",
+  true,
+  ""
+ ],
+ [
+  "Run: Boss fights scope",
+  true,
+  ""
+ ],
+ [
+  "Run: Copy summary",
+  true,
+  ""
+ ],
+ [
+  "Run: Share image opens the picture",
+  true,
+  ""
+ ],
+ [
+  "Share sheet called",
+  true,
+  ""
+ ],
+ [
+  "Android share sheet opened",
+  true,
+  ""
+ ],
+ [
+  "Picture saved with report",
+  true,
+  ""
+ ],
+ [
+  "Picture closes",
+  true,
+  ""
+ ],
+ [
+  "Run: Save report",
+  true,
+  ""
+ ],
+ [
+  "Run: tap a boss kill box",
+  true,
+  ""
+ ],
+ [
+  "Fight: Healing tab",
+  true,
+  ""
+ ],
+ [
+  "Fight: open a healer",
+  true,
+  ""
+ ],
+ [
+  "Fight: Damage taken tab",
+  true,
+  ""
+ ],
+ [
+  "Fight: Utility tab",
+  true,
+  ""
+ ],
+ [
+  "Fight: Damage tab",
+  true,
+  ""
+ ],
+ [
+  "Back button returns to the run",
+  true,
+  ""
+ ],
+ [
+  "Run: no separate Deaths or Utility panels; Fight by fight is there",
+  true,
+  ""
+ ],
+ [
+  "Run: tap a player who died opens their drop-down",
+  true,
+  ""
+ ],
+ [
+  "Drop-down: open the death",
+  true,
+  ""
+ ],
+ [
+  "Drop-down: open that fight",
+  true,
+  ""
+ ],
+ [
+  "Fight: open a death",
+  true,
+  ""
+ ],
+ [
+  "Fight: back to the run",
+  true,
+  ""
+ ],
+ [
+  "Drop-down closes when tapped again",
+  true,
+  ""
+ ],
+ [
+  "Drop-down shows exact consumables, cooldowns and interrupts",
+  true,
+  ""
+ ],
+ [
+  "Item link opens the tooltip",
+  true,
+  ""
+ ],
+ [
+  "Tooltip: Wowhead button",
+  true,
+  ""
+ ],
+ [
+  "Android opened the browser",
+  true,
+  ""
+ ],
+ [
+  "Tooltip again, Back closes it",
+  true,
+  ""
+ ],
+ [
+  "Drop-down: Full summary opens the player page",
+  true,
+  ""
+ ],
+ [
+  "Player: Copy summary",
+  true,
+  ""
+ ],
+ [
+  "Player: tap a fight",
+  true,
+  ""
+ ],
+ [
+  "Theme: light",
+  true,
+  ""
+ ],
+ [
+  "Theme: dark",
+  true,
+  ""
+ ],
+ [
+  "Menu: History",
+  true,
+  ""
+ ],
+ [
+  "Week: Copy summary",
+  true,
+  ""
+ ],
+ [
+  "Week: Share image",
+  true,
+  ""
+ ],
+ [
+  "Week picture closes",
+  true,
+  ""
+ ],
+ [
+  "History: Bosses",
+  true,
+  ""
+ ],
+ [
+  "Bosses: open one",
+  true,
+  ""
+ ],
+ [
+  "History: Players",
+  true,
+  ""
+ ],
+ [
+  "Players: open one",
+  true,
+  ""
+ ],
+ [
+  "Player history: back",
+  true,
+  ""
+ ],
+ [
+  "History: Attendance",
+  true,
+  ""
+ ],
+ [
+  "History: Loot",
+  true,
+  ""
+ ],
+ [
+  "History: Weeks row opens a run",
+  true,
+  ""
+ ],
+ [
+  "Chat tab: Loot",
+  true,
+  ""
+ ],
+ [
+  "Loot: Epic only",
+  true,
+  ""
+ ],
+ [
+  "Loot: All qualities",
+  true,
+  ""
+ ],
+ [
+  "Loot: search \"Shuriken\"",
+  true,
+  ""
+ ],
+ [
+  "Loot: clear search",
+  true,
+  ""
+ ],
+ [
+  "Loot: Rolled for",
+  true,
+  ""
+ ],
+ [
+  "Loot: Everyone",
+  true,
+  ""
+ ],
+ [
+  "Chat menu: Rolls",
+  true,
+  ""
+ ],
+ [
+  "Chat menu: Activity",
+  true,
+  ""
+ ],
+ [
+  "Chat menu: Watch list",
+  true,
+  ""
+ ],
+ [
+  "Watch: words",
+  true,
+  ""
+ ],
+ [
+  "Watch: sound off",
+  true,
+  ""
+ ],
+ [
+  "Watch: sound on",
+  true,
+  ""
+ ],
+ [
+  "Chat menu: All messages",
+  true,
+  ""
+ ],
+ [
+  "Messages: No Trade/LFG",
+  true,
+  ""
+ ],
+ [
+  "Messages: tap a name filters",
+  true,
+  ""
+ ],
+ [
+  "Messages: clear search",
+  true,
+  ""
+ ],
+ [
+  "Messages: All channels",
+  true,
+  ""
+ ],
+ [
+  "Messages: Show more",
+  true,
+  ""
+ ],
+ [
+  "Back to Combat",
+  true,
+  ""
+ ],
+ [
+  "Menu: Settings",
+  true,
+  ""
+ ],
+ [
+  "Settings: no Game data or auto-save; shows how many logs",
+  true,
+  ""
+ ],
+ [
+  "About: View licence",
+  true,
+  ""
+ ],
+ [
+  "Licence closes",
+  true,
+  ""
+ ],
+ [
+  "Settings: light theme switch",
+  true,
+  ""
+ ],
+ [
+  "Settings: dark again",
+  true,
+  ""
+ ],
+ [
+  "Choose folder opens the browser",
+  true,
+  ""
+ ],
+ [
+  "Browser: up one folder",
+  true,
+  ""
+ ],
+ [
+  "Browser: back into Logs",
+  true,
+  ""
+ ],
+ [
+  "Browser: tap a log",
+  true,
+  ""
+ ],
+ [
+  "Settings again: Choose folder",
+  true,
+  ""
+ ],
+ [
+  "Browser: Use this folder",
+  true,
+  ""
+ ],
+ [
+  "Back to runs after picking",
+  true,
+  ""
+ ],
+ [
+  "No error pages",
+  true,
+  ""
+ ]
+]

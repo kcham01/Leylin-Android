@@ -1,0 +1,147 @@
++ PKG=app.raidscribe
++ mkdir -p test/shots
++ adb wait-for-device
+++ adb shell getprop sys.boot_completed
+++ tr -d '\r'
++ '[' 1 = 1 ']'
++ adb shell settings put global hide_error_dialogs 1
++ sleep 20
++ adb logcat -c
++ adb install -r out/Raidscribe.apk
+Performing Streamed Install
+Success
++ adb shell mkdir -p /sdcard/Raidscribe/Logs
++ adb push test/logs/. /sdcard/Raidscribe/Logs/
+test/logs/./: 3 files pushed, 0 skipped. 6.2 MB/s (4256306 bytes in 0.656s)
++ adb shell ls -la /sdcard/Raidscribe/Logs
+total 4176
+-rw-rw---- 1 u0_a179 media_rw  155731 2026-10-21 15:07 WoWChatLog.txt
+-rw-rw---- 1 u0_a179 media_rw 2059597 2026-10-21 15:07 WoWCombatLog-101926_190000.txt
+-rw-rw---- 1 u0_a179 media_rw 2040978 2026-10-21 15:07 WoWCombatLog-102226_193000.txt
++ adb shell am start -W -n app.raidscribe/.MainActivity --ez devtools true
+Starting: Intent { cmp=app.raidscribe/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: app.raidscribe/.MainActivity
+TotalTime: 1881
+WaitTime: 1894
+Complete
++ sleep 15
++ node test/android.js permission
++ tee test/permission.log
+device sdk_gphone64_x86_64 emulator-5554
+screen 1080x2400, pixel ratio 2.625, page starts at y=128
+in front after Allow: false
++ adb shell appops set --uid app.raidscribe MANAGE_EXTERNAL_STORAGE allow
++ adb shell input keyevent 4
++ sleep 2
++ adb shell dumpsys activity activities
++ grep -E 'mResumedActivity|topResumedActivity'
+    topResumedActivity=ActivityRecord{3132ace u0 app.raidscribe/.MainActivity t8}
++ adb shell am start -W -n app.raidscribe/.MainActivity --ez devtools true
+Starting: Intent { cmp=app.raidscribe/.MainActivity (has extras) }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: app.raidscribe/.MainActivity
+TotalTime: 0
+WaitTime: 14
+Complete
++ sleep 4
++ adb exec-out screencap -p
++ node test/android.js flow
++ tee test/flow.log
+device sdk_gphone64_x86_64 emulator-5554
+screen 1080x2400, pixel ratio 2.625, page starts at y=128
+PASS Opens on the latest run: Gruul's Lair
+PASS Menu opens
+PASS Menu: Raids filter
+PASS Menu: All
+Testing with run: Karazhan (rWoWCombatLog-101926_190000.txt-1792436461500)
+PASS Menu: open Karazhan
+PASS Run: Everything scope
+PASS Run: Boss fights scope
+PASS Run: Copy summary
+PASS Run: Share image opens the picture
+PASS Share sheet called
+PASS Android share sheet opened
+PASS Picture saved with report
+PASS Picture closes
+PASS Run: Save report
+PASS Run: tap a boss kill box
+PASS Fight: Healing tab
+PASS Fight: open a healer
+PASS Fight: Damage taken tab
+PASS Fight: Utility tab
+PASS Fight: Damage tab
+PASS Back button returns to the run
+PASS Run: no separate Deaths or Utility panels; Fight by fight is there
+PASS Run: tap a player who died opens their drop-down
+PASS Drop-down: open the death
+PASS Drop-down: open that fight
+PASS Fight: open a death
+PASS Fight: back to the run
+PASS Drop-down closes when tapped again
+PASS Drop-down shows exact consumables, cooldowns and interrupts
+PASS Item link opens the tooltip
+PASS Tooltip: Wowhead button
+PASS Android opened the browser
+PASS Tooltip again, Back closes it
+PASS Drop-down: Full summary opens the player page
+PASS Player: Copy summary
+PASS Player: tap a fight
+PASS Theme: light
+PASS Theme: dark
+PASS Menu: History
+PASS Week: Copy summary
+PASS Week: Share image
+PASS Week picture closes
+PASS History: Bosses
+PASS Bosses: open one
+PASS History: Players
+PASS Players: open one
+PASS Player history: back
+PASS History: Attendance
+PASS History: Loot
+PASS History: Weeks row opens a run
+PASS Chat tab: Loot
+PASS Loot: Epic only
+PASS Loot: All qualities
+PASS Loot: search "Shuriken"
+PASS Loot: clear search
+PASS Loot: Rolled for
+PASS Loot: Everyone
+PASS Chat menu: Rolls
+PASS Chat menu: Activity
+PASS Chat menu: Watch list
+PASS Watch: words
+PASS Watch: sound off
+PASS Watch: sound on
+PASS Chat menu: All messages
+PASS Messages: No Trade/LFG
+PASS Messages: tap a name filters
+PASS Messages: clear search
+PASS Messages: All channels
+PASS Messages: Show more
+PASS Back to Combat
+PASS Menu: Settings
+PASS Settings: no Game data or auto-save; shows how many logs
+PASS About: View licence
+PASS Licence closes
+PASS Settings: light theme switch
+PASS Settings: dark again
+PASS Choose folder opens the browser
+PASS Browser: up one folder
+PASS Browser: back into Logs
+PASS Browser: tap a log
+PASS Settings again: Choose folder
+PASS Browser: Use this folder
+PASS Back to runs after picking
+84/84 checks passed
+RESULT 84/84
++ echo 'flow exit 0'
++ tee -a test/flow.log
+flow exit 0
++ adb logcat -d -v time -s 'Raidscribe:*' 'python.stdout:*' 'python.stderr:*' 'AndroidRuntime:*' 'chromium:*'
++ adb shell 'ls -laR '\''/sdcard/Documents/Raidscribe Reports'\'''
++ exit 0

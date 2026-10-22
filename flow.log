@@ -1,0 +1,89 @@
+device sdk_gphone64_x86_64 emulator-5554
+screen 1080x2400, pixel ratio 2.625, page starts at y=128
+PASS Opens on the latest run: Gruul's Lair
+PASS Menu opens
+PASS Menu: Raids filter
+PASS Menu: All
+Testing with run: Karazhan (rWoWCombatLog-101926_190000.txt-1792436461500)
+PASS Menu: open Karazhan
+PASS Run: Everything scope
+PASS Run: Boss fights scope
+PASS Run: Copy summary
+PASS Run: Share image opens the picture
+PASS Share sheet called
+PASS Android share sheet opened
+PASS Picture saved with report
+PASS Picture closes
+PASS Run: Save report
+PASS Run: tap a boss kill box
+PASS Fight: Healing tab
+PASS Fight: open a healer
+PASS Fight: Damage taken tab
+PASS Fight: Utility tab
+PASS Fight: Damage tab
+PASS Back button returns to the run
+PASS Run: no separate Deaths or Utility panels; Fight by fight is there
+PASS Run: tap a player who died opens their drop-down
+PASS Drop-down: open the death
+PASS Drop-down: open that fight
+PASS Fight: open a death
+PASS Fight: back to the run
+PASS Drop-down closes when tapped again
+PASS Drop-down shows exact consumables, cooldowns and interrupts
+PASS Item link opens the tooltip
+PASS Tooltip: Wowhead button
+PASS Android opened the browser
+PASS Tooltip again, Back closes it
+PASS Drop-down: Full summary opens the player page
+PASS Player: Copy summary
+PASS Player: tap a fight
+PASS Theme: light
+PASS Theme: dark
+PASS Menu: History
+PASS Week: Copy summary
+PASS Week: Share image
+PASS Week picture closes
+PASS History: Bosses
+PASS Bosses: open one
+PASS History: Players
+PASS Players: open one
+PASS Player history: back
+PASS History: Attendance
+PASS History: Loot
+PASS History: Weeks row opens a run
+PASS Chat tab: Loot
+PASS Loot: Epic only
+PASS Loot: All qualities
+PASS Loot: search "Shuriken"
+PASS Loot: clear search
+PASS Loot: Rolled for
+PASS Loot: Everyone
+PASS Chat menu: Rolls
+PASS Chat menu: Activity
+PASS Chat menu: Watch list
+PASS Watch: words
+PASS Watch: sound off
+PASS Watch: sound on
+PASS Chat menu: All messages
+PASS Messages: No Trade/LFG
+PASS Messages: tap a name filters
+PASS Messages: clear search
+PASS Messages: All channels
+PASS Messages: Show more
+PASS Back to Combat
+PASS Menu: Settings
+PASS Settings: no Game data or auto-save; shows how many logs
+PASS About: View licence
+PASS Licence closes
+PASS Settings: light theme switch
+PASS Settings: dark again
+PASS Choose folder opens the browser
+PASS Browser: up one folder
+PASS Browser: back into Logs
+PASS Browser: tap a log
+PASS Settings again: Choose folder
+PASS Browser: Use this folder
+PASS Back to runs after picking
+84/84 checks passed
+RESULT 84/84
+flow exit 0
