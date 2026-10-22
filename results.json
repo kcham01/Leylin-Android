@@ -1,0 +1,292 @@
+{
+ "version": "1.0.0-beta",
+ "passed": 57,
+ "total": 57,
+ "checks": [
+  [
+   "Raidscribe.exe built",
+   true,
+   ""
+  ],
+  [
+   "exe says it is Raidscribe 1.0.0-beta",
+   true,
+   "('Raidscribe', '1.0.0-beta')"
+  ],
+  [
+   "exe has the Raidscribe icon",
+   true,
+   "1"
+  ],
+  [
+   "licence notices complete",
+   true,
+   "[]"
+  ],
+  [
+   "installer built",
+   true,
+   "12285896"
+  ],
+  [
+   "installer is named for this version",
+   true,
+   "D:\\a\\Raidscribe\\Raidscribe\\out\\Raidscribe-Setup-1.0.0-beta.exe"
+  ],
+  [
+   "portable zip built",
+   true,
+   ""
+  ],
+  [
+   "installs without asking for admin",
+   true,
+   "0"
+  ],
+  [
+   "installed in AppData\\Local\\Programs\\Raidscribe",
+   true,
+   "C:\\Users\\runneradmin\\AppData\\Local\\Programs\\Raidscribe\\Raidscribe.exe"
+  ],
+  [
+   "Start menu shortcut",
+   true,
+   "C:\\Users\\runneradmin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Raidscribe.lnk"
+  ],
+  [
+   "desktop shortcut (ticked)",
+   true,
+   "C:\\Users\\runneradmin\\Desktop\\Raidscribe.lnk"
+  ],
+  [
+   "listed in Settings > Apps with name, version, icon",
+   true,
+   "{'DisplayName': 'Raidscribe', 'DisplayVersion': '1.0.0-beta', 'Publisher': 'Raidscribe', 'DisplayIcon': 'C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Programs\\\\Raidscribe\\\\Raidscribe.exe'}"
+  ],
+  [
+   "first start: asks where WoW is",
+   true,
+   "['Where\u2019s World of Warcraft?', 'Raidscribe reads the combat and chat logs WoW saves in  World of Warcraft\\\\_anniversary_\\\\Logs, but it couldn\u2019t find WoW on this PC.', 'Choose your World of Warcraft folder (or the Logs folder inside it), or pick one of your log files. Raidscribe remembers it and reads every log in that folder, including new ones while you play.']"
+  ],
+  [
+   "first start: both buttons",
+   true,
+   "['Choose WoW folder\u2026', 'Pick a log file\u2026']"
+  ],
+  [
+   "window title is Raidscribe",
+   true,
+   "Raidscribe"
+  ],
+  [
+   "item details loaded",
+   true,
+   "29681"
+  ],
+  [
+   "Choose WoW folder\u2026 opens the Windows folder picker",
+   true,
+   ""
+  ],
+  [
+   "folder picker opens somewhere sensible, not the app\u2019s own folder",
+   true,
+   ""
+  ],
+  [
+   "folder picker: chose World of Warcraft",
+   true,
+   ""
+  ],
+  [
+   "chosen WoW folder becomes its _anniversary_\\Logs",
+   true,
+   "C:\\rs-test\\My Games\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "choice remembered in settings",
+   true,
+   "C:\\rs-test\\My Games\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "log copied in while open is read",
+   true,
+   ""
+  ],
+  [
+   "run page shows damage and bosses",
+   true,
+   "[\"Gruul's Lair\", 'Cleared', 'Raid', 'Thu, Oct 22, 7:31 PM \u2013 7:44 PM', '13m total', 'Save report', 'Copy image', 'Copy summary', '2', '/2', 'Bosses killed', '1']"
+  ],
+  [
+   "drop-down: consumables, cooldowns, interrupts, damage taken",
+   true,
+   "[\"Gruul's Lair\", 'Cleared', 'Raid', 'Thu, Oct 22, 7:31 PM \u2013 7:44 PM', '13m total', 'Save report', 'Copy image', 'Copy summary', '2', '/2', 'Bosses killed', '1', 'Wipes', '13m 21s', 'Clear time', '13,482', 'Raid DPS', '9,011', 'Raid HPS', '0', 'Deaths', 'Damage and healing', 'Boss fights', 'Everything', 'Damage', '6.35M total', '1', '15%', '1,956', '921.2k', 'Feralis', '\u25b8', '2', '14%', '1,952', '919.4k', 'Gloomer', '\u25b8', '3', '14%']"
+  ],
+  [
+   "Settings shows the logs folder and both pickers",
+   true,
+   "['Open folder', 'Change folder\u2026', 'Pick a log file\u2026', 'Choose WoW folder\u2026', 'Find it by itself', 'Source code on GitHub', 'View licences']"
+  ],
+  [
+   "About shows the version",
+   true,
+   "['Version 1.0.0-beta (build 29)']"
+  ],
+  [
+   "About credits PyInstaller and Tcl/Tk",
+   true,
+   ""
+  ],
+  [
+   "licence file found by the app",
+   true,
+   "C:\\Users\\runneradmin\\AppData\\Local\\Programs\\Raidscribe\\_internal\\THIRD-PARTY-NOTICES.txt"
+  ],
+  [
+   "mouse wheel scrolls the page to About",
+   true,
+   "{'label': 'View licences', 'x': 376, 'y': 546, 'visible': True}"
+  ],
+  [
+   "View licences opens the licence file",
+   true,
+   ""
+  ],
+  [
+   "first start: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "first start: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "reopened: same folder, no question asked",
+   true,
+   "C:\\rs-test\\My Games\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "reopened: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "reopened: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "Pick a log file\u2026 opens the Windows file picker",
+   true,
+   ""
+  ],
+  [
+   "a file that isn\u2019t a log is refused with a reason",
+   true,
+   ""
+  ],
+  [
+   "file picker opens in Documents, not the app\u2019s own folder",
+   true,
+   "   Namespace Tree Control Navigation Pane  ShellView    File &name:    Files of &type: WoW logs &Open Cancel     Navigation buttons  Up band    Address: Documents Address band      "
+  ],
+  [
+   "picked file: its folder is read",
+   true,
+   "C:\\rs-test\\Copied logs"
+  ],
+  [
+   "pick a file: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "pick a file: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "registry: finds _anniversary_\\Logs by itself",
+   true,
+   "C:\\rs-test\\Registry Install\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "found from the registry: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "found from the registry: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "no logs yet: points at where they will be",
+   true,
+   "C:\\Program Files (x86)\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "no logs yet: says how to turn logging on",
+   true,
+   "['Waiting for WoW\u2019s first log', 'Found World of Warcraft. Its logs will go in:', 'C:\\\\Program Files (x86)\\\\World of Warcraft\\\\_anniversary_\\\\Logs', 'WoW creates this folder the first time it saves a log. Type /combatlog in game (and /chatlog for chat), pull something, and this window picks it up within a few seconds.']"
+  ],
+  [
+   "no logs yet: says it is waiting, not that something is wrong",
+   true,
+   "['Waiting for WoW\u2019s first log', 'Found World of Warcraft. Its logs will go in:']"
+  ],
+  [
+   "first log appears: read without restarting",
+   true,
+   ""
+  ],
+  [
+   "WoW without logs yet: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "WoW without logs yet: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "Program Files: found by itself",
+   true,
+   "C:\\Program Files (x86)\\World of Warcraft\\_anniversary_\\Logs"
+  ],
+  [
+   "found in Program Files: closes cleanly",
+   true,
+   ""
+  ],
+  [
+   "found in Program Files: no errors logged",
+   true,
+   ""
+  ],
+  [
+   "uninstaller installed",
+   true,
+   ""
+  ],
+  [
+   "uninstall removes the app",
+   true,
+   ""
+  ],
+  [
+   "uninstall removes the shortcuts",
+   true,
+   ""
+  ],
+  [
+   "uninstall removes it from Settings > Apps",
+   true,
+   ""
+  ]
+ ]
+}

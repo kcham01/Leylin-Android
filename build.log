@@ -1,0 +1,154 @@
+== Raidscribe 1.0.0-beta (build 29, 1.0.0.29) for Windows
+Python 3.12.10
+prepared version 1.0.0-beta: tcl=True tk=True pyinstaller-licence=True
+== Raidscribe.exe
+348 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.9
+348 INFO: Python: 3.12.10
+372 INFO: Platform: Windows-2025Server-10.0.26100-SP0
+372 INFO: Python environment: C:\hostedtoolcache\windows\Python\3.12.10\x64
+372 INFO: wrote D:/a/Raidscribe/Raidscribe/build\Raidscribe.spec
+380 INFO: Removing temporary files and cleaning cache in C:\Users\runneradmin\AppData\Local\pyinstaller
+381 INFO: Module search paths (PYTHONPATH):
+['D:\\a\\Raidscribe\\Raidscribe',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python312.zip',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\DLLs',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\win32',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\win32\\lib',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\pythonwin',
+ 'D:\\a\\Raidscribe\\Raidscribe\\build']
+621 INFO: Appending 'datas' from .spec
+621 INFO: checking Analysis
+621 INFO: Building Analysis because Analysis-00.toc is non existent
+621 INFO: Looking for Python shared library...
+621 INFO: Using Python shared library: C:\hostedtoolcache\windows\Python\3.12.10\x64\python312.dll
+621 INFO: Running Analysis Analysis-00.toc
+621 INFO: Target bytecode optimization level: 0
+621 INFO: Initializing module dependency graph...
+625 INFO: Initializing module graph hook caches...
+640 INFO: Analyzing modules for base_library.zip ...
+1354 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+2302 INFO: Processing standard module hook 'hook-math.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+3475 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+4674 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+5282 INFO: Caching module dependency graph...
+5321 INFO: Analyzing D:\a\Raidscribe\Raidscribe\build\Raidscribe.pyw
+6282 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+6282 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7848 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+7877 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+7903 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+8297 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+8362 INFO: Processing module hooks (post-graph stage)...
+8366 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks'
+8379 INFO: Performing binary vs. data reclassification (929 entries)
+9128 INFO: Looking for ctypes DLLs
+9265 INFO: Analyzing run-time hooks ...
+9267 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9269 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9294 INFO: Creating base_library.zip...
+9316 INFO: Looking for dynamic libraries
+9451 INFO: Extra DLL search directories (AddDllDirectory): []
+9451 INFO: Extra DLL search directories (PATH): []
+10219 INFO: Warnings written to D:\a\Raidscribe\Raidscribe\build\work\Raidscribe\warn-Raidscribe.txt
+10239 INFO: Graph cross-reference written to D:\a\Raidscribe\Raidscribe\build\work\Raidscribe\xref-Raidscribe.html
+10270 INFO: checking PYZ
+10272 INFO: Building PYZ because PYZ-00.toc is non existent
+10272 INFO: Building PYZ (ZlibArchive) D:\a\Raidscribe\Raidscribe\build\work\Raidscribe\PYZ-00.pyz
+10472 INFO: Building PYZ (ZlibArchive) D:\a\Raidscribe\Raidscribe\build\work\Raidscribe\PYZ-00.pyz completed successfully.
+10485 INFO: checking PKG
+10485 INFO: Building PKG because PKG-00.toc is non existent
+10485 INFO: Building PKG (CArchive) Raidscribe.pkg
+10967 INFO: Building PKG (CArchive) Raidscribe.pkg completed successfully.
+10969 INFO: Bootloader C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+10969 INFO: checking EXE
+10969 INFO: Building EXE because EXE-00.toc is non existent
+10969 INFO: Building EXE from EXE-00.toc
+10969 INFO: Copying bootloader EXE to D:\a\Raidscribe\Raidscribe\build\work\Raidscribe\Raidscribe.exe
+10970 INFO: Copying icon to EXE
+10972 INFO: Copying version information to EXE
+10976 INFO: Copying 0 resources to EXE
+10976 INFO: Embedding manifest in EXE
+10978 INFO: Appending PKG archive to EXE
+10980 INFO: Fixing EXE headers
+11049 INFO: Building EXE from EXE-00.toc completed successfully.
+11058 INFO: checking COLLECT
+11058 INFO: Building COLLECT because COLLECT-00.toc is non existent
+11060 INFO: Building COLLECT COLLECT-00.toc
+11748 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+11768 INFO: Build complete! The results are available in: D:\a\Raidscribe\Raidscribe\build\dist
+total 2508
+drwxr-xr-x 1 runneradmin 197121       0 Oct 22 01:19 .
+drwxr-xr-x 1 runneradmin 197121       0 Oct 22 01:19 ..
+-rwxr-xr-x 1 runneradmin 197121 2396593 Oct 22 01:19 Raidscribe.exe
+-rw-r--r-- 1 runneradmin 197121  149805 Oct 22 01:19 THIRD-PARTY-NOTICES.txt
+drwxr-xr-x 1 runneradmin 197121       0 Oct 22 01:19 _internal
+== portable zip
+== installer
+
+Preprocessingtotal 25560
+drwxr-xr-x 1 runneradmin 197121        0 Oct 22 01:19 .
+drwxr-xr-x 1 runneradmin 197121        0 Oct 22 01:19 ..
+-rw-r--r-- 1 runneradmin 197121 13878586 Oct 22 01:19 Raidscribe-1.0.0-beta-portable.zip
+-rwxr-xr-x 1 runneradmin 197121 12285896 Oct 22 01:19 Raidscribe-Setup-1.0.0-beta.exe
+== test
+PASS Raidscribe.exe built
+PASS exe says it is Raidscribe 1.0.0-beta  [('Raidscribe', '1.0.0-beta')]
+PASS exe has the Raidscribe icon  [1]
+PASS licence notices complete  [[]]
+PASS installer built  [12285896]
+PASS installer is named for this version  [D:\a\Raidscribe\Raidscribe\out\Raidscribe-Setup-1.0.0-beta.exe]
+PASS portable zip built
+PASS installs without asking for admin  [0]
+PASS installed in AppData\Local\Programs\Raidscribe  [C:\Users\runneradmin\AppData\Local\Programs\Raidscribe\Raidscribe.exe]
+PASS Start menu shortcut  [C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Raidscribe.lnk]
+PASS desktop shortcut (ticked)  [C:\Users\runneradmin\Desktop\Raidscribe.lnk]
+PASS listed in Settings > Apps with name, version, icon  [{'DisplayName': 'Raidscribe', 'DisplayVersion': '1.0.0-beta', 'Publisher': 'Raidscribe', 'DisplayIcon': 'C:\\Users\\runneradmin\\AppData\\Local\\Programs\\Raidscribe\\Raidscribe.exe'}]
+PASS first start: asks where WoW is  [['Where’s World of Warcraft?', 'Raidscribe reads the combat and chat logs WoW saves in  World of Warcraft\\_anniversary_\\Logs, but it couldn’t find WoW on this PC.', 'Choose your World of Warcraft folder (or the Logs folder inside it), or pick one of your log files. Raidscribe remembers it and read]
+PASS first start: both buttons  [['Choose WoW folder…', 'Pick a log file…']]
+PASS window title is Raidscribe  [Raidscribe]
+PASS item details loaded  [29681]
+PASS Choose WoW folder… opens the Windows folder picker
+PASS folder picker opens somewhere sensible, not the app’s own folder
+PASS folder picker: chose World of Warcraft
+PASS chosen WoW folder becomes its _anniversary_\Logs  [C:\rs-test\My Games\World of Warcraft\_anniversary_\Logs]
+PASS choice remembered in settings  [C:\rs-test\My Games\World of Warcraft\_anniversary_\Logs]
+PASS log copied in while open is read
+PASS run page shows damage and bosses  [["Gruul's Lair", 'Cleared', 'Raid', 'Thu, Oct 22, 7:31 PM – 7:44 PM', '13m total', 'Save report', 'Copy image', 'Copy summary', '2', '/2', 'Bosses killed', '1']]
+PASS drop-down: consumables, cooldowns, interrupts, damage taken  [["Gruul's Lair", 'Cleared', 'Raid', 'Thu, Oct 22, 7:31 PM – 7:44 PM', '13m total', 'Save report', 'Copy image', 'Copy summary', '2', '/2', 'Bosses killed', '1', 'Wipes', '13m 21s', 'Clear time', '13,482', 'Raid DPS', '9,011', 'Raid HPS', '0', 'Deaths', 'Damage and healing', 'Boss fights', 'Everythin]
+PASS Settings shows the logs folder and both pickers  [['Open folder', 'Change folder…', 'Pick a log file…', 'Choose WoW folder…', 'Find it by itself', 'Source code on GitHub', 'View licences']]
+PASS About shows the version  [['Version 1.0.0-beta (build 29)']]
+PASS About credits PyInstaller and Tcl/Tk
+PASS licence file found by the app  [C:\Users\runneradmin\AppData\Local\Programs\Raidscribe\_internal\THIRD-PARTY-NOTICES.txt]
+PASS mouse wheel scrolls the page to About  [{'label': 'View licences', 'x': 376, 'y': 546, 'visible': True}]
+PASS View licences opens the licence file
+PASS first start: closes cleanly
+PASS first start: no errors logged
+PASS reopened: same folder, no question asked  [C:\rs-test\My Games\World of Warcraft\_anniversary_\Logs]
+PASS reopened: closes cleanly
+PASS reopened: no errors logged
+PASS Pick a log file… opens the Windows file picker
+PASS a file that isn’t a log is refused with a reason
+PASS file picker opens in Documents, not the app’s own folder  [   Namespace Tree Control Navigation Pane  ShellView    File &name:    Files of &type: WoW logs &Open Cancel     Navigation buttons  Up band    Address: Documents Address band      ]
+PASS picked file: its folder is read  [C:\rs-test\Copied logs]
+PASS pick a file: closes cleanly
+PASS pick a file: no errors logged
+PASS registry: finds _anniversary_\Logs by itself  [C:\rs-test\Registry Install\World of Warcraft\_anniversary_\Logs]
+PASS found from the registry: closes cleanly
+PASS found from the registry: no errors logged
+PASS no logs yet: points at where they will be  [C:\Program Files (x86)\World of Warcraft\_anniversary_\Logs]
+PASS no logs yet: says how to turn logging on  [['Waiting for WoW’s first log', 'Found World of Warcraft. Its logs will go in:', 'C:\\Program Files (x86)\\World of Warcraft\\_anniversary_\\Logs', 'WoW creates this folder the first time it saves a log. Type /combatlog in game (and /chatlog for chat), pull something, and this window picks it up wit]
+PASS no logs yet: says it is waiting, not that something is wrong  [['Waiting for WoW’s first log', 'Found World of Warcraft. Its logs will go in:']]
+PASS first log appears: read without restarting
+PASS WoW without logs yet: closes cleanly
+PASS WoW without logs yet: no errors logged
+PASS Program Files: found by itself  [C:\Program Files (x86)\World of Warcraft\_anniversary_\Logs]
+PASS found in Program Files: closes cleanly
+PASS found in Program Files: no errors logged
+PASS uninstaller installed
+PASS uninstall removes the app
+PASS uninstall removes the shortcuts
+PASS uninstall removes it from Settings > Apps
+57/57 checks passed
